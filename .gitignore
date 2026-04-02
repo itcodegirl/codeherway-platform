@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build output (regenerated from source)
+dist/
+bundle.html
+
+# Netlify
+.netlify/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+.parcel-cache/
+
+# Environment
+.env
+.env.local

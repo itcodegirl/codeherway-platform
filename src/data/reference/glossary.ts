@@ -1,0 +1,50 @@
+// ═══════════════════════════════════════════════
+// GLOSSARY — Searchable term definitions
+// To add: push { term, def, course } to the array
+// ═══════════════════════════════════════════════
+
+import type { GlossaryTerm } from '../../utils/types';
+
+export const GLOSSARY: GlossaryTerm[] = [
+  { term:'API', def:'Application Programming Interface — how programs communicate with each other.', course:'js' },
+  { term:'Async/Await', def:'Modern syntax for handling asynchronous operations, making promises readable.', course:'js' },
+  { term:'Attribute', def:'Extra info on an HTML tag: src, href, class, id.', course:'html' },
+  { term:'Block Element', def:'Takes full width, starts new line: div, p, h1.', course:'html' },
+  { term:'Boolean', def:'Data type with two values: true or false.', course:'js' },
+  { term:'Box Model', def:'Every element is a box: content + padding + border + margin.', course:'css' },
+  { term:'Callback', def:'A function passed as argument to another function, called later.', course:'js' },
+  { term:'Cascading', def:'How CSS rules override each other based on specificity and source order.', course:'css' },
+  { term:'Class (CSS)', def:'Reusable selector for styling. Prefix with dot: .className', course:'css' },
+  { term:'Closure', def:'Function that remembers outer scope variables after the outer function finishes.', course:'js' },
+  { term:'Component', def:'Reusable, self-contained UI piece in React — a function returning JSX.', course:'react' },
+  { term:'const', def:'Variable that cannot be reassigned. Use by default in JavaScript.', course:'js' },
+  { term:'Context', def:'React feature for sharing data across components without prop drilling.', course:'react' },
+  { term:'CSS Grid', def:'Two-dimensional layout system for rows and columns simultaneously.', course:'css' },
+  { term:'CSS Variables', def:'Custom properties (--name) storing reusable values. Access with var().', course:'css' },
+  { term:'Defer', def:'Script attribute loading JS after HTML is fully parsed.', course:'html' },
+  { term:'Destructuring', def:'Extract values from objects ({a,b}=obj) or arrays ([a,b]=arr).', course:'js' },
+  { term:'DOM', def:"Document Object Model — browser's tree representation of HTML that JS manipulates.", course:'js' },
+  { term:'Event Delegation', def:'One listener on parent handles events on all children via bubbling.', course:'js' },
+  { term:'Flexbox', def:'One-dimensional CSS layout for rows or columns.', course:'css' },
+  { term:'Fragment', def:"React's <> wrapper grouping elements without extra DOM nodes.", course:'react' },
+  { term:'Hook', def:'React function (useState, useEffect) for state and lifecycle features.', course:'react' },
+  { term:'ID', def:'Unique identifier for one HTML element per page. Prefix with #.', course:'html' },
+  { term:'Inline Element', def:"Flows with text, doesn't start new line: span, a, strong.", course:'html' },
+  { term:'JSX', def:'React syntax that looks like HTML inside JavaScript. Compiled to JS.', course:'react' },
+  { term:'let', def:'Variable that can be reassigned. Use when value will change.', course:'js' },
+  { term:'localStorage', def:'Browser API persisting key-value pairs across sessions. Strings only.', course:'js' },
+  { term:'Media Query', def:'CSS rule applying styles based on screen size or user preferences.', course:'css' },
+  { term:'Meta Tag', def:'HTML tag in <head> providing page metadata (charset, viewport, description).', course:'html' },
+  { term:'Promise', def:'Object representing a future value (pending/fulfilled/rejected).', course:'js' },
+  { term:'Props', def:'Read-only data passed parent → child in React. One-way flow.', course:'react' },
+  { term:'Pseudo-class', def:'CSS selector for states: :hover, :focus, :nth-child. Single colon.', course:'css' },
+  { term:'Responsive Design', def:'Websites working on all screen sizes using flexible layouts and media queries.', course:'css' },
+  { term:'Semantic HTML', def:'Tags describing meaning (nav, article, main) instead of generic divs.', course:'html' },
+  { term:'Specificity', def:'CSS system determining which rule wins when multiple target same element.', course:'css' },
+  { term:'Spread Operator', def:'Three dots (...) expanding arrays/objects into individual elements.', course:'js' },
+  { term:'State', def:'Data in React that changes over time. Updates trigger re-renders.', course:'react' },
+  { term:'useEffect', def:'React hook for side effects: API calls, timers, DOM changes.', course:'react' },
+  { term:'useRef', def:'React hook for mutable values persisting across renders without re-rendering.', course:'react' },
+  { term:'useState', def:'React hook creating state. Returns [value, setter]. Setter triggers re-render.', course:'react' },
+  { term:'Viewport', def:'Visible area of a web page on a device screen.', course:'css' },
+];
