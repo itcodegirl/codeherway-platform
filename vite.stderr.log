@@ -1,0 +1,5 @@
+TSConfckParseError: [31m  Failed to scan for dependencies from entries:
+  C:/Users/Jenna/OneDrive/Portfolio Coding Projects/codeherway-platform/index.html
+
+  [39mparsing C:/Users/Jenna/OneDrive/Portfolio Coding Projects/codeherway-platform/tsconfig.app.json failed: Error: ENOENT: no such file or directory, open 'C:\Users\Jenna\OneDrive\Portfolio Coding Projects\codeherway-platform\tsconfig.app.json'
+    at file:///C:/Users/Jenna/OneDrive/Portfolio%20Coding%20Projects/codeherway-platform/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:18698:10
