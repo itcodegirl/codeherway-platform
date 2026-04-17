@@ -1,3 +1,20 @@
+# Archived Repository
+
+This repository is archived and is no longer the active home of CodeHerWay platform development.
+
+It was retained as a source/reference repository during the CodeHerWay consolidation process. Active canonical platform work is currently taking place in `education_platform`.
+
+## Status
+- Archived source repository
+- Not the active development repo
+- Kept for historical and reference purposes only
+
+## Current canonical repository during consolidation
+`education_platform`
+
+## Planned final state
+After consolidation is complete, `education_platform` is planned to be renamed to `codeherway-platform`.
+
 # ⚡ CodeHerWay Learning Platform
 
 An interactive coding education platform for women in tech — 4 courses, 92 lessons, quizzes, XP system, badges, and more.
